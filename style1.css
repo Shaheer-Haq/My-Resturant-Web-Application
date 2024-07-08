@@ -1,0 +1,173 @@
+*
+{ /* This is the syle sheet for the first login page */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .signinbox /* The design for the sign in box starts here */
+{
+    background:rgb(80, 12, 158);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-bottom: 4px ;
+ width: 50%;
+ height: 100%
+ 
+ 
+}
+section .signinbox .formbox h2
+{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid rgb(247, 89, 89);
+    display: inline-block;
+    letter-spacing: 1px;
+
+}
+section .signinbox .formbox .inputbox
+{
+    margin-bottom: 20px;
+
+}
+section .signinbox .formbox .inputbox span
+{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: gray;
+    font-weight: 16px;
+    letter-spacing: 1px;
+}
+section .signinbox .formbox .inputbox input
+{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400px;
+    border: 1px solid gray;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: gray;
+    background: white;
+    border-radius: 30px ;
+}
+section .Submit input
+{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400px;
+    border: 1px solid gray;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: gray;
+    background: transparent;
+    border-radius: 30px ;
+    background: rgb(247, 89, 89);
+    color:white;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+section .signinbox .formbox .remeberme
+{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+section .signupbox /* The design for the signup box starts here */
+{
+    background:rgb(247, 89, 89);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-bottom: 4px ;
+ width: 50%;
+ height: 100%
+ 
+ 
+}
+section .signupbox .formbox h2
+{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid rgb(80, 12, 158);
+    display: inline-block;
+    letter-spacing: 1px;
+
+}
+section .signupbox .formbox .inputbox
+{
+    margin-bottom: 20px;
+
+}
+section .signupbox .formbox .inputbox span
+{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: gray;
+    font-weight: 16px;
+    letter-spacing: 1px;
+}
+section .signupbox .formbox .inputbox input
+{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400px;
+    border: 1px solid gray;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: gray;
+    background: white;
+    border-radius: 30px ;
+}
+section .Submit2 input
+{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400px;
+    border: 1px solid gray;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: gray;
+    background: white;
+    border-radius: 30px ;
+    background: rgb(80, 12, 158);
+    color:white;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+section .signupbox .formbox .remeberme
+{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+
+}

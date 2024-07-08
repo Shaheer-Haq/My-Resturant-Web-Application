@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyFoodWebApplication</title> <!-- The title for our food web collection-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> <!-- For social media icons-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header> <!-- The header on every page to navigate between the home, menu, cart , and deals page-->
+        <div id="logo"><img src="logo.png" alt="Restaurant" style="width: 100px; height: 100px;"></div> <!-- The logo for our restaurant-->
+        <ul class="navigation">
+            <li><a href="main.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </header>
+    <div class="menu">
+        <div class="heading">
+            <h1>Shopping Cart</h1>
+        </div>
+        <div class="small-container">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                   <td> <div class="cart-info"> <img src="deal1.jpg">
+                    <p style="color: black;">Deal 1</p> </div>
+                </td>                                                                       <!-- Price of Deal 1 -->
+                    <td><input type="number" value="1"></td>
+                    <td>Rs.1500</td>
+                </tr>
+                <tr>
+                    <td> <div class="cart-info"> <img src="pizza.jpg">
+                     <p style="color: black;">Chicken Fajita Pizza</p> </div>             <!-- Price of Deal 2 -->
+                 </td>
+                     <td><input type="number" value="1"></td>
+                     <td>Rs.1500</td>
+                 </tr>                                                                      <!-- Price of Deal 3 -->
+                 <tr>
+                    <td> <div class="cart-info"> <img src="spaghetti.jpg">
+                     <p style="color: black;">Spaghetti</p> </div>
+                 </td>
+                     <td><input type="number" value="1"></td>
+                     <td>Rs.500</td>
+                 </tr>
+            </table>
+            <div class="total-price">
+                <table>
+                <td>Subtotal</td>                                                           <!-- Subtotal -->
+                <td>Rs.3500</td>
+                </table>
+            </div>
+        </div>
+        <div class="payment">
+            <a href="payment.html">Proceed to Payment</a>                          <!-- To navigate to Proceed to Payment -->
+    
+        </div>
+    
+    <footer> <!-- The footer on every page which shows our contact details etc -->
+        <div class="container">
+            <div class="number">
+                <h2>Contact Us</h2>
+                <p>
+                    123-456-789<br>
+                    987-654-321
+                </p>
+            </div>
+            <ul class="social">
+                <h2>Connect With Us</h2>
+              <li><a href="#"><i class="fab fa-facebook"></i><i class="fab fa-instagram"></i><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            <div class="email">
+                <h2>Email Address</h2>
+                <p>example@example.com</p>
+            </div>
+            <div class="address">
+                <h2>Address</h2>
+                <p>Shop 123,Street 456<br>Example Road,Example </p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
